@@ -14,7 +14,7 @@
       hydrogen libraries for .NET Standard is a set of utilities and extensions that are 
       used frequently in different projects.
     </description>
-    <copyright>Copyright appson.tech 2017</copyright>
+    <copyright>Copyright clay-one 2017</copyright>
     <tags>hydrogen dotnet</tags>
   </metadata>
 </package>
