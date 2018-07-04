@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>hydrogen.General</id>
+    <version>0.9.3</version>
+    <title>hydrogen - General</title>
+    <summary>Common utilities and extensions for .NET Standard</summary>
+    <authors>clay-one</authors>
+    <owners>clay-one</owners>
+    <licenseUrl>https://github.com/clay-one/hydrogen.git</licenseUrl>
+    <projectUrl>https://github.com/clay-one/hydrogen.git</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      hydrogen libraries for .NET Standard is a set of utilities and extensions that are 
+      used frequently in different projects.
+    </description>
+    <copyright>Copyright appson.tech 2017</copyright>
+    <tags>hydrogen dotnet</tags>
+  </metadata>
+</package>

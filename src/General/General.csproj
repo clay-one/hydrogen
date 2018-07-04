@@ -3,6 +3,18 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>hydrogen.General</RootNamespace>
+    <PackageId>hydrogen.General</PackageId>
+    <Version>0.9.3</Version>
+    <Authors>clay-one</Authors>
+    <Product>hydrogen.General</Product>
+    <Description>hydrogen libraries for .NET Standard is a set of utilities and extensions that are used frequently in different projects.</Description>
+    <Copyright>Copyright appson.tech 2017</Copyright>
+    <PackageLicenseUrl>https://github.com/clay-one/hydrogen.git</PackageLicenseUrl>
+    <PackageTags>hydrogen dotnet</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="nuget.exe" />
+  </ItemGroup>
 
 </Project>
