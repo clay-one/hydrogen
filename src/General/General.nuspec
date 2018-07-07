@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>hydrogen.General</id>
+    <id>clay-one.hydrogen.General</id>
     <version>0.9.3</version>
     <title>hydrogen - General</title>
     <summary>Common utilities and extensions for .NET Standard</summary>
