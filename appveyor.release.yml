@@ -1,0 +1,79 @@
+version: build-{build}
+branches:
+  only:
+  - master
+  - develop
+skip_non_tags: true
+image: Visual Studio 2017
+configuration: Release
+init:
+- ps: >-
+    $ErrorActionPreference = "Stop"
+
+
+    if ($env:APPVEYOR_REPO_TAG -ne "true")
+
+    {
+        throw "This build should only be triggered using tags in repository."
+    }
+
+
+    $tag = $env:APPVEYOR_REPO_TAG_NAME
+
+    if (-not ($tag -match '^\d+\.\d+\.\d+$'))
+
+    {
+        throw "Tag format is invalid. It should be x.y.z"
+    }
+
+
+    $isPrerelease = $env:APPVEYOR_REPO_BRANCH -ne "master"
+
+    $buildNumber = $env:APPVEYOR_BUILD_NUMBER
+
+    $buildVersion = $buildNumber + "-" + $tag
+
+    $packageVersion = $tag + $(If ($isPrerelease) {"-pre"} Else {""})
+
+    $assemblyVersion = $tag + $(If ($isPrerelease) {".0"} Else {".1"})
+
+
+    Update-AppveyorBuild -Version $buildVersion
+
+
+    $env:CLAY_ONE_PACKAGE_VERSION = $packageVersion
+
+    $env:CLAY_ONE_ASSEMBLY_VERSION = $assemblyVersion
+
+    $env:CLAY_ONE_IS_PRERELEASE = "$isPrerelease"
+
+
+    [Environment]::SetEnvironmentVariable("CLAY_ONE_PACKAGE_VERSION", $packageVersion, "Machine")
+
+    [Environment]::SetEnvironmentVariable("CLAY_ONE_ASSEMBLY_VERSION", $assemblyVersion, "Machine")
+
+    [Environment]::SetEnvironmentVariable("CLAY_ONE_IS_PRERELEASE", "$isPrerelease", "Machine")
+dotnet_csproj:
+  patch: true
+  file: '**\*.csproj'
+  version: $(CLAY_ONE_PACKAGE_VERSION)
+  package_version: $(CLAY_ONE_PACKAGE_VERSION)
+  assembly_version: $(CLAY_ONE_ASSEMBLY_VERSION)
+  file_version: $(CLAY_ONE_ASSEMBLY_VERSION)
+  informational_version: $(CLAY_ONE_ASSEMBLY_VERSION)
+before_build:
+- cmd: nuget restore src\hydrogen.sln
+build:
+  publish_nuget: true
+  publish_nuget_symbols: true
+  verbosity: minimal
+deploy:
+- provider: NuGet
+  api_key:
+    secure: dq6edavt3hxy0y79li2dx3al
+- provider: GitHub
+  tag: $(APPVEYOR_REPO_TAG_NAME)
+  description: Release $(APPVEYOR_REPO_TAG_NAME)
+  auth_token:
+    secure: dq6edavt3hxy0y79li2dx3al
+  force_update: true
