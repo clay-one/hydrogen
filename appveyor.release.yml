@@ -70,10 +70,10 @@ build:
 deploy:
 - provider: NuGet
   api_key:
-    secure: dq6edavt3hxy0y79li2dx3al
+    secure: py0jt/rSo2JJ4YWxEb6tvsPq/ld0bPfXUSycAMIP1FnhgWYFxd36p503ROjaz0lS
 - provider: GitHub
   tag: $(APPVEYOR_REPO_TAG_NAME)
   description: Release $(APPVEYOR_REPO_TAG_NAME)
   auth_token:
-    secure: dq6edavt3hxy0y79li2dx3al
+    secure: PR2N4DNpyemBn+f32B5SXr4e2w19JxwiRq6P9RzHQZ7bsR5UH76/ewi9fYfDloCS
   force_update: true
