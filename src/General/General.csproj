@@ -8,7 +8,7 @@
     <Authors>clay-one</Authors>
     <Product>Hydrogen.General</Product>
     <Description>hydrogen libraries for .NET Standard is a set of utilities and extensions that are used frequently in different projects.</Description>
-    <Copyright>Copyright appson.tech 2017</Copyright>
+    <Copyright>Copyright clay-one 2017</Copyright>
     <PackageLicenseUrl>https://github.com/clay-one/hydrogen.git</PackageLicenseUrl>
     <PackageTags>hydrogen dotnet</PackageTags>
     <Company>clay-one</Company>
@@ -16,6 +16,44 @@
 
   <ItemGroup>
     <None Remove="nuget.exe" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Geo\" />
+    <Folder Include="Model\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Localization\TimeSpanLocalizationResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>TimeSpanLocalizationResources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Text\NumericStringUtilsResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>NumericStringUtilsResources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Utils\UtilResources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>UtilResources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Localization\TimeSpanLocalizationResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>TimeSpanLocalizationResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Text\NumericStringUtilsResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>NumericStringUtilsResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Utils\UtilResources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UtilResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
 
 </Project>

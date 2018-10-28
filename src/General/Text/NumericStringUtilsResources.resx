@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CardinalTextual0" xml:space="preserve">
+    <value>صفر</value>
+  </data>
+  <data name="CardinalTextual1" xml:space="preserve">
+    <value>یک</value>
+  </data>
+  <data name="CardinalTextual10" xml:space="preserve">
+    <value>ده</value>
+  </data>
+  <data name="CardinalTextual100" xml:space="preserve">
+    <value>صد</value>
+  </data>
+  <data name="CardinalTextual1000" xml:space="preserve">
+    <value>هزار</value>
+  </data>
+  <data name="CardinalTextual11" xml:space="preserve">
+    <value>یازده</value>
+  </data>
+  <data name="CardinalTextual12" xml:space="preserve">
+    <value>دوازده</value>
+  </data>
+  <data name="CardinalTextual13" xml:space="preserve">
+    <value>سیزده</value>
+  </data>
+  <data name="CardinalTextual14" xml:space="preserve">
+    <value>چهارده</value>
+  </data>
+  <data name="CardinalTextual15" xml:space="preserve">
+    <value>پانزده</value>
+  </data>
+  <data name="CardinalTextual16" xml:space="preserve">
+    <value>شانزده</value>
+  </data>
+  <data name="CardinalTextual17" xml:space="preserve">
+    <value>هفده</value>
+  </data>
+  <data name="CardinalTextual18" xml:space="preserve">
+    <value>هجده</value>
+  </data>
+  <data name="CardinalTextual19" xml:space="preserve">
+    <value>نوزده</value>
+  </data>
+  <data name="CardinalTextual2" xml:space="preserve">
+    <value>دو</value>
+  </data>
+  <data name="CardinalTextual20" xml:space="preserve">
+    <value>بیست</value>
+  </data>
+  <data name="CardinalTextual200" xml:space="preserve">
+    <value>دویست</value>
+  </data>
+  <data name="CardinalTextual3" xml:space="preserve">
+    <value>سه</value>
+  </data>
+  <data name="CardinalTextual30" xml:space="preserve">
+    <value>سی</value>
+  </data>
+  <data name="CardinalTextual300" xml:space="preserve">
+    <value>سیصد</value>
+  </data>
+  <data name="CardinalTextual4" xml:space="preserve">
+    <value>چهار</value>
+  </data>
+  <data name="CardinalTextual40" xml:space="preserve">
+    <value>چهل</value>
+  </data>
+  <data name="CardinalTextual400" xml:space="preserve">
+    <value>چهارصد</value>
+  </data>
+  <data name="CardinalTextual5" xml:space="preserve">
+    <value>پنج</value>
+  </data>
+  <data name="CardinalTextual50" xml:space="preserve">
+    <value>پنجاه</value>
+  </data>
+  <data name="CardinalTextual500" xml:space="preserve">
+    <value>پانصد</value>
+  </data>
+  <data name="CardinalTextual6" xml:space="preserve">
+    <value>شش</value>
+  </data>
+  <data name="CardinalTextual60" xml:space="preserve">
+    <value>شصت</value>
+  </data>
+  <data name="CardinalTextual600" xml:space="preserve">
+    <value>ششصد</value>
+  </data>
+  <data name="CardinalTextual7" xml:space="preserve">
+    <value>هفت</value>
+  </data>
+  <data name="CardinalTextual70" xml:space="preserve">
+    <value>هفتاد</value>
+  </data>
+  <data name="CardinalTextual700" xml:space="preserve">
+    <value>هفتصد</value>
+  </data>
+  <data name="CardinalTextual8" xml:space="preserve">
+    <value>هشت</value>
+  </data>
+  <data name="CardinalTextual80" xml:space="preserve">
+    <value>هشتاد</value>
+  </data>
+  <data name="CardinalTextual800" xml:space="preserve">
+    <value>هشتصد</value>
+  </data>
+  <data name="CardinalTextual9" xml:space="preserve">
+    <value>نه</value>
+  </data>
+  <data name="CardinalTextual90" xml:space="preserve">
+    <value>نود</value>
+  </data>
+  <data name="CardinalTextual900" xml:space="preserve">
+    <value>نهصد</value>
+  </data>
+  <data name="First" xml:space="preserve">
+    <value>اول</value>
+  </data>
+  <data name="GenericOrdinalFormat" xml:space="preserve">
+    <value>{0} ام</value>
+  </data>
+  <data name="NumericBillions" xml:space="preserve">
+    <value>{0:#.##} میلیارد</value>
+  </data>
+  <data name="NumericMillions" xml:space="preserve">
+    <value>{0:#.##} میلیون</value>
+  </data>
+  <data name="NumericOnes" xml:space="preserve">
+    <value>{0:#.##}</value>
+  </data>
+  <data name="NumericThousands" xml:space="preserve">
+    <value>{0:#.##} هزار</value>
+  </data>
+  <data name="OrdinalTextual0" xml:space="preserve">
+    <value>صفرم</value>
+  </data>
+  <data name="OrdinalTextual1" xml:space="preserve">
+    <value>یکم</value>
+  </data>
+  <data name="OrdinalTextual10" xml:space="preserve">
+    <value>دهم</value>
+  </data>
+  <data name="OrdinalTextual100" xml:space="preserve">
+    <value>صدم</value>
+  </data>
+  <data name="OrdinalTextual1000" xml:space="preserve">
+    <value>هزارم</value>
+  </data>
+  <data name="OrdinalTextual11" xml:space="preserve">
+    <value>یازدهم</value>
+  </data>
+  <data name="OrdinalTextual12" xml:space="preserve">
+    <value>دوازدهم</value>
+  </data>
+  <data name="OrdinalTextual13" xml:space="preserve">
+    <value>سیزدهم</value>
+  </data>
+  <data name="OrdinalTextual14" xml:space="preserve">
+    <value>چهاردهم</value>
+  </data>
+  <data name="OrdinalTextual15" xml:space="preserve">
+    <value>پانزدهم</value>
+  </data>
+  <data name="OrdinalTextual16" xml:space="preserve">
+    <value>شانزدهم</value>
+  </data>
+  <data name="OrdinalTextual17" xml:space="preserve">
+    <value>هفدهم</value>
+  </data>
+  <data name="OrdinalTextual18" xml:space="preserve">
+    <value>هجدهم</value>
+  </data>
+  <data name="OrdinalTextual19" xml:space="preserve">
+    <value>نوزدهم</value>
+  </data>
+  <data name="OrdinalTextual2" xml:space="preserve">
+    <value>دوم</value>
+  </data>
+  <data name="OrdinalTextual20" xml:space="preserve">
+    <value>بیستم</value>
+  </data>
+  <data name="OrdinalTextual200" xml:space="preserve">
+    <value>دویستم</value>
+  </data>
+  <data name="OrdinalTextual3" xml:space="preserve">
+    <value>سوم</value>
+  </data>
+  <data name="OrdinalTextual30" xml:space="preserve">
+    <value>سی ام</value>
+  </data>
+  <data name="OrdinalTextual300" xml:space="preserve">
+    <value>سیصدم</value>
+  </data>
+  <data name="OrdinalTextual4" xml:space="preserve">
+    <value>چهارم</value>
+  </data>
+  <data name="OrdinalTextual40" xml:space="preserve">
+    <value>چهلم</value>
+  </data>
+  <data name="OrdinalTextual400" xml:space="preserve">
+    <value>چهارصدم</value>
+  </data>
+  <data name="OrdinalTextual5" xml:space="preserve">
+    <value>پنجم</value>
+  </data>
+  <data name="OrdinalTextual50" xml:space="preserve">
+    <value>پنجاهم</value>
+  </data>
+  <data name="OrdinalTextual500" xml:space="preserve">
+    <value>پانصدم</value>
+  </data>
+  <data name="OrdinalTextual6" xml:space="preserve">
+    <value>ششم</value>
+  </data>
+  <data name="OrdinalTextual60" xml:space="preserve">
+    <value>شصتم</value>
+  </data>
+  <data name="OrdinalTextual600" xml:space="preserve">
+    <value>ششصدم</value>
+  </data>
+  <data name="OrdinalTextual7" xml:space="preserve">
+    <value>هفتم</value>
+  </data>
+  <data name="OrdinalTextual70" xml:space="preserve">
+    <value>هفتادم</value>
+  </data>
+  <data name="OrdinalTextual700" xml:space="preserve">
+    <value>هفتصدم</value>
+  </data>
+  <data name="OrdinalTextual8" xml:space="preserve">
+    <value>هشتم</value>
+  </data>
+  <data name="OrdinalTextual80" xml:space="preserve">
+    <value>هشتادم</value>
+  </data>
+  <data name="OrdinalTextual800" xml:space="preserve">
+    <value>هشتصدم</value>
+  </data>
+  <data name="OrdinalTextual9" xml:space="preserve">
+    <value>نهم</value>
+  </data>
+  <data name="OrdinalTextual90" xml:space="preserve">
+    <value>نودم</value>
+  </data>
+  <data name="OrdinalTextual900" xml:space="preserve">
+    <value>نهصدم</value>
+  </data>
+  <data name="TextualJointer" xml:space="preserve">
+    <value> و </value>
+  </data>
+  <data name="TextualNegativeFormat" xml:space="preserve">
+    <value>منهای {0}</value>
+  </data>
+</root>
