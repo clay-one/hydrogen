@@ -1,9 +1,20 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>hydrogen.AutoMapper</RootNamespace>
     <AssemblyName>hydrogen.AutoMapper</AssemblyName>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>ClayOne.Hydrogen.AutoMapper</PackageId>
+    <Version>0.1.0</Version>
+    <Authors>clay-one</Authors>
+    <Company>clay-one</Company>
+    <Product>Hydrogen.AutoMapper</Product>
+    <Description>Hydrogen libraries for .NET Standard is a set of utilities and extensions that are used frequently in different projects.</Description>
+    <Copyright>Copyright clay-one 2017</Copyright>
+    <PackageLicenseUrl>https://github.com/clay-one/hydrogen.git</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/clay-one/hydrogen.git</PackageProjectUrl>
+    <PackageTags>hydrogen dotnet automapper</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
