@@ -1,4 +1,4 @@
-﻿namespace hydrogen.General.Utils
+﻿namespace Hydrogen.General.Utils
 {
 	public static class ObjectUtils
 	{

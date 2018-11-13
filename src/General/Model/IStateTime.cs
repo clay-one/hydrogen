@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace hydrogen.General.Model
+namespace Hydrogen.General.Model
 {
     public interface IStateTime
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace hydrogen.AutoMapper
+namespace Hydrogen.AutoMapper
 {
     /// <summary>
     ///		Specifies that a type has AutoMapper configuration

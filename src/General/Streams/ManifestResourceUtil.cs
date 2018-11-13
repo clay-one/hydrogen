@@ -1,7 +1,7 @@
 ﻿using System.IO;
 using System.Reflection;
 
-namespace hydrogen.General.Streams
+namespace Hydrogen.General.Streams
 {
 	public static class ManifestResourceUtil
 	{

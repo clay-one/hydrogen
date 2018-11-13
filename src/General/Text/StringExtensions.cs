@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace hydrogen.General.Text
+namespace Hydrogen.General.Text
 {
     public static class StringExtensions
 	{

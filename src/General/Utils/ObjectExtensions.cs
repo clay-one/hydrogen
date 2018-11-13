@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace hydrogen.General.Utils
+namespace Hydrogen.General.Utils
 {
     /// <summary>
     /// Contains most generic extension methods that can be applied to any object type

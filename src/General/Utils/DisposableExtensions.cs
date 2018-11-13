@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace hydrogen.General.Utils
+namespace Hydrogen.General.Utils
 {
     public static class DisposableExtensions
 	{

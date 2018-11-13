@@ -1,4 +1,4 @@
-﻿namespace hydrogen.General.Model
+﻿namespace Hydrogen.General.Model
 {
     public interface IEntityContentContainer<TContent> where TContent : class, IEntityContent
 	{

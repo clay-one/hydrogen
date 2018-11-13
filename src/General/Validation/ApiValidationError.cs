@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using hydrogen.General.Collections;
+using Hydrogen.General.Collections;
 
-namespace hydrogen.General.Validation
+namespace Hydrogen.General.Validation
 {
 	public class ApiValidationError
 	{

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace hydrogen.General.Geo
+namespace Hydrogen.General.Geo
 {
     public class LatLngBounds
 	{

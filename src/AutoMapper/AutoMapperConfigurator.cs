@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Linq;
 using System.Reflection;
-using hydrogen.General.Collections;
+using Hydrogen.General.Collections;
 
-namespace hydrogen.AutoMapper
+namespace Hydrogen.AutoMapper
 {
     public static class AutoMapperConfigurator
     {

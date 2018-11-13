@@ -1,9 +1,9 @@
 ﻿using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
-using hydrogen.General.Collections;
+using Hydrogen.General.Collections;
 
-namespace hydrogen.General.Text
+namespace Hydrogen.General.Text
 {
     public class RegexCache
     {

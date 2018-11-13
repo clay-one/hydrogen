@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace hydrogen.General.Model
+namespace Hydrogen.General.Model
 {
     public class PagedListOutput<T>
     {

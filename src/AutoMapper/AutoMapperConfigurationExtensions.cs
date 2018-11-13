@@ -2,7 +2,7 @@
 using System.Linq.Expressions;
 using AutoMapper;
 
-namespace hydrogen.AutoMapper
+namespace Hydrogen.AutoMapper
 {
     public static class AutoMapperConfigurationExtensions
     {
