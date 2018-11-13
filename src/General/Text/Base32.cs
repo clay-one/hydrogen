@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace hydrogen.General.Text
+namespace Hydrogen.General.Text
 {
     public class Base32
     {

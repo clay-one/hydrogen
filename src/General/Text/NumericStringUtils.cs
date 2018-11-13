@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace hydrogen.General.Text
+namespace Hydrogen.General.Text
 {
 	public static class NumericStringUtils
 	{

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace hydrogen.General.Collections
+namespace Hydrogen.General.Collections
 {
 	public class PaginationStats
 	{

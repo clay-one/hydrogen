@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>hydrogen.General</RootNamespace>
+    <RootNamespace>Hydrogen.General</RootNamespace>
     <PackageId>ClayOne.Hydrogen.General</PackageId>
     <Version>0.9.3</Version>
     <Authors>clay-one</Authors>

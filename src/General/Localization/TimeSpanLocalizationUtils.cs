@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace hydrogen.General.Localization
+namespace Hydrogen.General.Localization
 {
 	public static class TimeSpanLocalizationUtils
 	{

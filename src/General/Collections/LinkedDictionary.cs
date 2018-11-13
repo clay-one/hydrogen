@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace hydrogen.General.Collections
+namespace Hydrogen.General.Collections
 {
     /// <summary>
     /// Linked-list backend IDictionary implementation. 

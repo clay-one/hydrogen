@@ -4,7 +4,7 @@ using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace hydrogen.General.Text
+namespace Hydrogen.General.Text
 {
     /// <summary>
     /// Code copied from http://www.codeproject.com/Tips/76650/Base32-base32url-base64url-and-z-base-32-encoding-.aspx

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace hydrogen.General.Collections
+namespace Hydrogen.General.Collections
 {
 	public static class EnumerableExtensions
 	{

@@ -1,4 +1,4 @@
-﻿namespace hydrogen.General.Text
+﻿namespace Hydrogen.General.Text
 {
     public static class RegexUtils
     {

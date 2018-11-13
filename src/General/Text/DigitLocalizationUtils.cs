@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace hydrogen.General.Text
+namespace Hydrogen.General.Text
 {
     public static class DigitLocalizationUtils
     {

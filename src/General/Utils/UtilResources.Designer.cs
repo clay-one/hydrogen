@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace hydrogen.General.Utils {
+namespace Hydrogen.General.Utils {
     using System;
     
     
