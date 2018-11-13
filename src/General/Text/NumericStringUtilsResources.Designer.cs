@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace hydrogen.General.Text {
+namespace Hydrogen.General.Text {
     using System;
     
     

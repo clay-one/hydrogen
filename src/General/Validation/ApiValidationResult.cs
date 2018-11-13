@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using hydrogen.General.Collections;
-using hydrogen.General.Text;
+using Hydrogen.General.Collections;
+using Hydrogen.General.Text;
 
-namespace hydrogen.General.Validation
+namespace Hydrogen.General.Validation
 {
     public class ApiValidationResult
 	{

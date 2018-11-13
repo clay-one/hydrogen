@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Resources;
-using hydrogen.General.Text;
-using hydrogen.General.Utils;
+using Hydrogen.General.Text;
+using Hydrogen.General.Utils;
 
-namespace hydrogen.General.Localization
+namespace Hydrogen.General.Localization
 {
     public static class EnumLocalizationUtils
     {

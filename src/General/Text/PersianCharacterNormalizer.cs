@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace hydrogen.General.Text
+namespace Hydrogen.General.Text
 {
     /// <summary>
     /// Source code copied from PersianNormalizer class within Lucene.Net

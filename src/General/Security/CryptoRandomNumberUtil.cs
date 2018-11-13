@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace hydrogen.General.Security
+namespace Hydrogen.General.Security
 {
     public class CryptoRandomNumberUtil
     {

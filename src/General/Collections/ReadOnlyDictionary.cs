@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace hydrogen.General.Collections
+namespace Hydrogen.General.Collections
 {
     public class ReadOnlyDictionary<TKey, TValue> : IDictionary<TKey, TValue>
     {

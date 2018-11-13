@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace hydrogen.General.Utils
+namespace Hydrogen.General.Utils
 {
     /// <summary>
     /// Provides thread-based random number generators, and guarantees unique seeds for their initialization.

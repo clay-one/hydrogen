@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace hydrogen.General.Localization {
+namespace Hydrogen.General.Localization {
     using System;
     
     

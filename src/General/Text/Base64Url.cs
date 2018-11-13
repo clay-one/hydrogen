@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace hydrogen.General.Text
+namespace Hydrogen.General.Text
 {
     /// <summary>
     /// Modified Base64 for URL applications ('base64url' encoding)

@@ -1,5 +1,5 @@
 ﻿
-namespace hydrogen.General.Geo
+namespace Hydrogen.General.Geo
 {
     public class LatLng
 	{

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace hydrogen.General.Localization
+namespace Hydrogen.General.Localization
 {
     public static class DateTimeLocalizationExtensions
 	{

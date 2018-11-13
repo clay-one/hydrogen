@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace hydrogen.General.Geo
+namespace Hydrogen.General.Geo
 {
     public class LatLngPath
 	{

@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Text.RegularExpressions;
 
-namespace hydrogen.General.Localization
+namespace Hydrogen.General.Localization
 {
     public class DateTimeLocalizationUtils
 	{

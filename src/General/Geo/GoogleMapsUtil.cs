@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace hydrogen.General.Geo
+namespace Hydrogen.General.Geo
 {
 	public static class GoogleMapsUtil
 	{
